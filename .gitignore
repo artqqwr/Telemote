@@ -1,0 +1,43 @@
+# Ignore binary files
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore go build artifacts
+*.out
+*.test
+
+# Ignore database file
+database.db
+
+# Ignore vendor directory (if it exists)
+/vendor/
+
+# Ignore any temporary files or directories
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore the generated documentation
+/doc/
+
+# Ignore the Makefile (if it is specific to your local environment)
+Makefile.local
+
+# Ignore any files that may contain sensitive information
+.env
+secrets.yml
+
+# Ignore any files that are generated during the build process
+/dist/
+/build/
+
+# Ignore any files that may be specific to your editor or IDE
+.vscode/
+.idea/
+
+# Ignore any backup files
+*~
